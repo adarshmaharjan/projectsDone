@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*preloader*/
+/*
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+#status {
+    background-image: url(images/Pulse-1s-200px.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+*/
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url(fonts/Titillium-web/TitilliumWeb-Light.WOFF);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url(fonts/Titillium-web/TitilliumWeb-LightItalic.WOFF);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url(fonts/Titillium-web/TitilliumWeb-Regular.WOFF);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url(fonts/Titillium-web/TitilliumWeb-Regular.WOFF);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url(fonts/Titillium-web/TitilliumWeb-SemiBold.WOFF);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url(fonts/Titillium-web/TitilliumWeb-Bold.WOFF);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: url(fonts/teko/Teko-Light.WOFF);
+    font-weight: 300;
+} 
+
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: url(fonts/teko/Teko-Regular.WOFF);
+    font-weight: 400;
+} 
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: url(fonts/teko/Teko-Medium.WOFF);
+    font-weight: 500;
+} 
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: url(fonts/teko/Teko-SemiBold.WOFF);
+    font-weight: 600;
+} 
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: url(fonts/teko/Teko-Bold.WOFF);
+    font-weight: 700;
+} 
+
+
+
+
+.slider-section {
+    background-color: #5D7A8B;
+
+}
+
+.slider-section .container {
+    position: relative;
+    height: 100vh;
+}
+
+.slick-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.slider {
+    opacity: 0;
+}
+
+.slick-slider {
+    opacity: 1;
+    -webkit-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.slider-content {
+    text-align: center;
+    background-color: white;
+    margin: 0 16px;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 100%;
+    display: inline-block;
+}
+
+.slider-section h2 {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.12em;
+    color: #000;
+}
+
+.slider-section p {
+    font: 300 16px 'Titillium Web', sans-serif;
+    color: #555;
+    letter-spacing: 0;
+}
+
+.slider-section a {
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 0.1em;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font: 700 16px 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.slider-section a:hover {
+    color: white;
+    background-color: #555;
+}
+
+.slick-dots li {
+
+    border: 4px solid white;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
+
+.slick-slide:focus {
+    outline-style: none;
+}
+
+li.slick-active {
+    background-color: white;
+}
+
+
+
+span {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+
+
+
+}
+
+.slide-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.prev-arrow {
+    left: -40px;
+    background-image: url(images/previous-button-resized.png);
+}
+
+.next-arrow {
+    right: -40px;
+    background-image: url(images/nex-buttont-resized.png);
+}
+
+.modal-section {
+    background: #f63c3c;
+    height: 40vh;
+
+}
+
+.modal-container {
+    position: relative;
+    height: 40vh;
+}
+
+.modal-contents {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.modal-contents h2 {
+    font: 400 40px 'Teko', sans-serif;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.modal-contents p {
+    font: 300 16px 'Titillium Web', sans-serif;
+    color: #fff;
+}
+
+.modal-contents button {
+    background-color: #fff;
+    color: #000;
+    font: 700 16px 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+.modal-contents button:hover,
+.modal-contents button:focus,
+.modal-contents button:active {
+    background-color: #fff8bb;
+    color: black;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+
+.form-content {
+    padding: 15px;
+}
+
+.form-content form {
+    text-align: center;
+
+}
+
+.form-content form h2 {
+    text-transform: uppercase;
+    font: 400 30px 'Titillium Web', sans-serif;
+    color: #000;
+}
+
+.form-content form input[type="email"] {
+    padding: 10px 16px;
+    border: 1px solid #555;
+
+}
+
+.form-content form input[type="submit"] {
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font: 600 12px 'Titillium Web', sans-serif;
+}
+
+.form-content form input::-webkit-input-placeholder {
+    text-align: center;
+    font: 400 16px 'Titillium Web', sans-serif;
+
+}
+
+.form-content form input::-moz-placeholder {
+    text-align: center;
+    font: 400 16px 'Titillium Web', sans-serif;
+
+}
+
+.form-content form input:-ms-input-placeholder {
+    text-align: center;
+    font: 400 16px 'Titillium Web', sans-serif;
+
+}
+
+.form-content form input::-ms-input-placeholder {
+    text-align: center;
+    font: 400 16px 'Titillium Web', sans-serif;
+
+}
+
+.form-content form input::placeholder {
+    text-align: center;
+    font: 400 16px 'Titillium Web', sans-serif;
+
+}
+
+.close-btn {
+    margin: 0 auto;
+}
+
+.photoes {
+    background-color: #f1f1f1;
+}
+
+.photoes h2 {
+    font: 600 36px 'Titillium Web', sans-serif;
+    letter-spacing: 0.12em;
+    color: gray;
+    text-align: center;
+}
+
+.image-content {
+    margin-bottom: 30px;
+}
+
+.image-content div {
+    overflow: hidden;
+}
+
+.image-content div a img {
+    /*    display: inline-block;*/
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.image-content div a img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+
+.mfp-arrow,
+.mfp-arrow:active {
+    margin-top: -20px;
+}
+
+.mfp-arrow-left {
+    margin-left: 20px;
+}
+
+.mfp-arrow-right {
+    margin-right: 20px;
+}
+
+button.mfp-arrow-left {
+    background: url(images/previous-button-resized.png) no-repeat;
+
+}
+
+button.mfp-arrow-right {
+    background: url(images/nex-buttont-resized.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.mfp-arrow:before,
+.mfp-arrow::after {
+    border: none;
+}

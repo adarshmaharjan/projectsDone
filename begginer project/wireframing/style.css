@@ -1,0 +1,689 @@
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing:border-box;
+}
+.clearfix::before,
+.clearfix::after{
+	content:" ";
+	clear:both;
+	display:table;
+}
+/*TOP-BAR*/
+.top-bar{
+	background-image:url("images/header-image/top-bar_background.jpg");
+	background-repeat:no-repeat;
+	padding:60px 0;
+	position:relative;
+}
+.logo{
+	position:absolute;
+	top:20px;
+	left:200px;
+
+}
+
+.logo img{
+	width:100%;
+}
+
+.logo img:hover{
+	cursor:pointer;
+}
+.web-link{
+	position:absolute;
+	top:41px;
+	right:200px;
+	background:#ffffff;
+	height:45px;
+	padding:0 20px;
+	border-radius:22.5px;
+	font-size:25px;
+	font-family:arial;
+	line-height:45px;
+
+
+}
+.web-link a{
+	text-decoration:none;
+	color:#000000;
+	line-height:1.5px;
+	display:inline-block;
+	vertical-align:middle;
+
+}
+.web-link a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+/* ================================= */
+/*NAV-BAR*/
+/* ================================= */
+.nav-container{
+	background-color:#1f4a92;
+
+}
+.nav-bar{
+	width:70%;
+	margin:auto;
+
+}
+.nav-bar_elements{
+	list-style-type:none;
+}
+.nav-bar_element{
+	float:left;
+
+}
+.nav-bar_element a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:21px 20px;
+	text-decoration:none;
+	font-family:arial;
+	font-weight:bold;
+	font-size:20px;
+}
+.nav-bar_element a:hover,
+.nav-bar_element a:active{
+	color:#1f4a92;
+	background:#ffffff;
+}
+
+.coloured{
+	background:#a0b2fd;
+}
+/*BACKGROUND-IMAGE*/
+.background{
+	/*position:relative;*/
+	background-image:url("images/main-image/blue-sea.jpg");
+	background-repeat:no-repeat;
+	padding:220px 0px 166px 0;
+}
+.background-container{
+	width:70%;
+	margin:auto;
+}
+.background-heading{
+
+	text-transform:uppercase;
+	font-family:arial;
+	font-weight:bold;
+	font-size:42px;
+	margin-bottom:8px;
+
+}
+.background-flavour_text{
+
+	font-family:arial;
+	font-style:italic;
+	font-size:36px;
+	margin-bottom:8px;
+	font-weight:normal;
+
+}
+
+.join-us_button{
+
+	font-size:36px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:center;
+	padding:30px 128px;
+	background-color:#276183;
+	color:#ffffff;
+
+}
+.join-us_button:active,
+.join-us_button:hover{
+	background:#ffffff;
+	color:#276183;
+	cursor:pointer;
+}
+/*DESTINATIN-SECTION*/
+.destination{
+	background-image:linear-gradient(-126deg,#ffffff,#0054a6);
+	padding:32px 0;
+}
+
+.destination-heading{
+	text-align:center;
+	font-family:arial;
+	font-size:55px;
+	font-weight:bold;
+	color:#ffffff;
+
+}
+.destination-flavor_text{
+	text-align:center;
+	font-family:arial;
+	font-size:55px;
+	color:#ffffff;
+	font-style:italic;
+	font-weight: 400;
+}
+.destination-content{
+	width:70%;
+	margin:55px auto;
+}
+.destination-paragraph{
+	font-family:arial;
+	font-size:18px;
+	color:#ffffff;
+
+}
+.destination-paragraph_container{
+	padding: 16px 0;
+}
+
+.destination-paragraph_top{
+	text-align:left;
+
+}
+.destination-paragraph_bottom{
+	text-align:left;
+	width:61%;
+	float:left;
+}
+.destination-image{
+	width:39%;
+	float:left;
+
+
+}
+.destination-image img{
+	border:16px solid #4783c4;
+	width:100%;
+}
+
+.destination-button_container{
+	text-align:center;
+}
+.destination-button{
+	color:#ffffff;
+	background:#5674b9;
+	font-family:arial;
+	font-size:50px;
+	font-weight:800;
+	border-radius:37px;
+	padding:2px 55px;
+
+}
+.destination-button:active,
+.destination-button:hover{
+	background:#ffffff;
+	color:#5674b9;
+	cursor:pointer;
+}
+/*COSTUMER-SECTION*/
+.costumer{
+	background:#0072bc;
+	padding:64px 0;
+
+}
+.costumer-heading{
+
+	text-align:center;
+	font-family:arial;
+	font-size:55px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.costumer-flavor_text{
+	text-align:center;
+	font-family:arial;
+	font-size:55px;
+	color:#ffffff;
+	font-style:italic;
+	font-weight: 400;
+}
+.costumer-container{
+	width:70%;
+	margin:0 auto;
+}
+.costumer-circle{
+	background-color: #448ccb;
+	width: 27%;
+	padding: 43px 0;
+	float: left;
+}
+.costumer-circle img{
+	width:100%;
+
+}
+.costumer-paragraphs{
+
+	width: 73%;
+	float: left;
+
+}
+.costumer-paragraph{
+	background-color:#448ccb;
+	color:#ffffff;
+	font-family:arial;
+	text-align:left;
+	font-size:18px;
+	margin:0 0 12px 12px;
+	padding:11px;
+
+}
+
+/*SERVICE-SECTION*/
+.service{
+	background-color: #0054a6;
+	padding: 56px 0;
+}
+
+.service-heading{
+	text-align:center;
+	font-family:arial;
+	font-size:55px;
+	font-weight:bold;
+	color:#ffffff;
+
+}
+.service-flavor_text{
+	text-align:center;
+	font-family:arial;
+	font-size:55px;
+	color:#ffffff;
+	font-style:italic;
+	font-weight:bold;
+}
+.service-content{
+	width:70%;
+	margin:auto;
+}
+.service-image{
+	width:58%;
+	float:left;
+
+}
+.service-image img{
+	width:100%;
+}
+.service-container{
+	width:42%;
+	float:left;
+}
+.service-texts{
+	list-style-type:none;
+
+
+}
+.service-text{
+	font-size:24px;
+	text-align:left;
+	font-family:arial;
+	color:#ffffff;
+	padding:8px 0;
+}
+.highlighted{
+	font-size:31px;
+	font-weight:700;
+
+}
+.service-button_container{
+	text-align:left;
+}
+.service-button{
+	background-color:#345574;
+	color:#ffffff;
+	font-family:arial;
+	font-size:43px;
+	padding:23px 65px;
+}
+.service-button:active,
+.service-button:hover{
+	background-color:#ffffff;
+	color:#345574;
+	cursor:pointer;
+}
+/*==================Form========================*/
+
+input[type=text],input[type=tel],input[type=email],select, textarea {
+ 	width: 100%;
+  	padding: 12px;
+ 	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family:arial;
+
+}
+input[type=range]{
+	width:100%;
+}
+
+select{
+	width:90%;
+}
+select[name=city],select[name=district]{
+	float:left;
+}
+
+select[name=estate],select[name=country]{
+	float:right;
+}
+
+.form-container{
+	width:70%;
+	background-color:#448ccb;
+	color:#ffffff;
+	margin: 32px auto;
+	padding:50px;
+	border:4px solid #fff;
+	border-radius:4px;
+}
+.form-heading{
+	text-align:center;
+	font-size:32px;
+	font-family:arial;
+}
+.row{
+	width:100%;
+	font-size:16px;
+	font-family:arial;
+	font-weight:bold;
+	margin:16px 0;
+
+}
+.clearfix::before,
+.clearfix::after{
+	content:" ";
+	clear:both;
+	display:block;
+}
+
+.col-1{
+	width:50%;
+	float:left;
+}
+.col-2{
+	width:50%;
+	float:left;
+}
+.column-1{
+	width:33.33%;
+	float:left
+}
+.column-2{
+	width:33.33%;
+	float:left
+}
+.column-3{
+	width:33.33%;
+	float:left
+}
+.no-left{
+	float:left;
+}
+.no-right{
+	float:right;
+}
+input[type=submit]{
+	font-family:arial;
+	font-size:32px;
+	background:#1c2379;
+	color:#fff;
+	font-weight:bold;
+	padding:8px 12px;
+
+}
+input[type=submit]:active,
+input[type=submit]:hover{
+	color:#1c2379;
+	background-color:#fff;
+	cursor:pointer;
+}
+/*FOOTER*/
+/*FOOTER-FIRST-PART*/
+.ft-1{
+	background:#1c2379;
+	color:#ffffff;
+	padding:32px;
+
+}
+
+.footer-content_1{
+	width:70%;
+	margin:0 auto;
+	padding:36px 0;
+}
+.quick-nav{
+	float:left;
+	width:50%;
+}
+.quick-nav_heading{
+	font-family:arial;
+	font-weight:bold;
+	font-size:31px;
+	text-align:left;
+
+}
+.quick-nav_elements{
+	list-style-type:none;
+}
+.quick-nav_element{
+	padding:20px 0;
+}
+.quick-nav_element a{
+	font-family:arial;
+	font-weight:bold;
+	font-size:31px;
+	text-decoration:none;
+	color:#ffffff;
+	text-align:left;
+}
+.quick-nav_element a:hover{
+	color:#74a1d1;
+}
+.about-us{
+	float:left;
+	width:50%;
+
+}
+.about-us_heading{
+	font-family:arial;
+	font-weight:bold;
+	font-size:31px;
+	text-align:left;
+}
+.about-us_paragraph{
+	font-family:arial;
+	font-weight:bold;
+	font-size:24px;
+	text-align:left;
+	padding:20px 0;
+}
+/*FOOTER-SECOND-PART*/
+.ft-2{
+	background:#15183b;
+	font-size:21px;
+}
+.footer-content_2{
+	width:70%;
+	margin:auto;
+}
+.copyright{
+	float:left;
+	width:50%;
+	font-family:arial;
+	text-align:left;
+	padding:50px 0;
+}
+.copyright a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+
+
+.terms-and_condition{
+	float:left;
+	width:50%;
+	font-family:arial;
+	color:#ffffff;
+	text-align:right;
+	padding:50px 0;
+}
+.terms-and_condition a{
+	color:#ffffff;
+	text-decoration:none;
+}
+/*Media Queries*/
+@media screen and (max-width:600px){
+	/*TOP-BAR*/
+	.logo{
+		top:0;
+		left:0;
+	}
+	.web-link{
+		right:0;
+		top:41px;
+
+	}
+	/*NAV-BAR*/
+	.nav-bar{
+		width:100%;
+	}
+	.nav-bar_element{
+		float:none;
+
+	}
+	/*BACKGROUND-PART*/
+	.background-container{
+		width:70%;
+
+	}
+	.background-heading{
+		font-size:27px;
+	}
+	.background-flavour_text{
+		font-size:21px;
+	}
+	.background-flavour_text-1{
+
+	}
+	.join-us_button{
+		font-size:36px;
+		padding:11px 30px;
+	}
+	/*DESTINATION-SECTION*/
+	.destination-content{
+		width:100%;
+		margin:55px auto;
+	}
+	.destination-paragraph{
+		text-align:center;
+	}
+	.destination-paragraph_bottom{
+		width:100%;
+		float:none;
+	}
+	.destination-image{
+		width:100%;
+		float:none;
+	}
+	.destination-button_container{
+		width:60%;
+		margin:auto;
+	}
+	.destination-button{
+		color:#ffffff;
+		background:#5674b9;
+		font-family:arial;
+		font-size:50px;
+		font-weight:bold;
+		border-radius:37px;
+		text-align:center;
+		width:100%;
+	}
+	/*COSTUMER-SECTION*/
+	.costumer-container{
+		width:100%;
+		margin:0 auto;
+	}
+	.costumer-circle{
+		width:70%;
+		padding:0px;
+		margin:auto;
+		float:none;
+
+	}
+	.costumer-paragraphs{
+		width: 100%;
+		float:none;
+
+	}
+	.costumer-paragraph{
+		text-align:center;
+		margin:16px 0;
+		padding:16px;
+	}
+	/*SERVICE-SECTION*/
+	.service-content{
+		width:100%;
+		margin:auto;
+	}
+	.service-image{
+		width:100%;
+		float:none;
+	}
+	.service-container{
+		width:100%;
+		float:none;
+	}
+	.service-text{
+		text-align:center;
+		padding:8px 0;
+	}
+	.service-button_container{
+		width:50%;
+		margin:auto;
+	}
+	/*Form-part*/
+	.form-container{
+		width:90%;
+
+		padding:50px;
+		border:4px solid #fff;
+		border-radius:4px;
+	}
+
+	/*FOOTER PART*/
+	/*FOOTER-FIRST-SECTION*/
+	.footer-content_1{
+		width:100%;
+	}
+	.quick-nav{
+		float:none;
+		width:100%;
+	}
+	.about-us{
+		float:none;
+		width:100%;
+	}
+	/*FOOTER-SECOND-SECTION*/
+	.copyright{
+		float:none;
+		width:100%;
+	}
+	.ft-logo{
+		float:none;
+		width:100%;
+	}
+	.ft-logo img{
+		width:100%;
+	}
+	.terms-and_condition{
+		float:none;
+		width:100%;
+
+	}
+/*Font Face*/
+@fontface{
+	font family:airal;
+	src:url("font/arial.ttf");
+}
